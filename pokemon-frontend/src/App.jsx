@@ -88,7 +88,7 @@ const theme = createTheme({
   },
 });
 
-const DB_URI="http://localhost:5050/api/"
+const DB_URI="https://madverse-pokimon.onrender.com/api/"
 
 function App() {
   const [name, setName] = useState('');
