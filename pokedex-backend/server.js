@@ -8,6 +8,7 @@ const Router = require("./routes/poke.routes");
 dotenv.config();
 const app = express();
 
+
 //middlewares//
 app.use(cors({
   origin: "http://localhost:5174", // ✅ no trailing slash
